@@ -1,0 +1,5 @@
+# Zmail sensitive data: never serve databases, keys, logs or attachments.
+Require all denied
+<FilesMatch "\.(db|sqlite|sqlite3|key|log|json|txt|env)$">
+    Require all denied
+</FilesMatch>
