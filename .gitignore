@@ -1,0 +1,29 @@
+# 数据库和运行时文件
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+data/installed.lock
+data/attachments/
+data/processed_uids.json
+
+# 日志
+*.log
+error_log
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*~
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 自定义配置
+config.local.php
+
+# 打包产物
+*.zip
+*.tar.gz
